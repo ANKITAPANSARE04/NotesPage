@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body-bg {
+    position: absolute;
+    background-image: url('https://img.freepik.com/premium-vector/school-vector-seamless-pattern-blue-line-art-stationery-doodle-education-background-study_193606-578.jpg');
+    background-repeat: repeat;
+    opacity: .1;
+    width: 100%;
+    height: 100%;
+}
+
+.t-logo {
+    width: 150px;
+}
+
+.add-item-btn {
+    background-color: #163c95;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.serach-input-shadow {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.task__card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border: none !important; */
+}
+
+.card-body img {
+    border-radius: 7px;
+}
+
+#showTask h1 {
+    font-size: 20px;
+}
+
+#showTask img {
+    width: 50%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+#showTask .task__modal__body {
+    text-align: center;
+}
+
+#showTask .btn-secondary {
+    background-color: #068FAB;
+}
+
+.task__card .card-header {
+    background-image: linear-gradient(to bottom right, #07ADC2, #fff);
+}
+
+.task__card .card-footer {
+    background-image: linear-gradient(to bottom right, #fff, #02023E);
+}
+
+.task__card .btn-outline-info {
+    color: #02023E;
+    border: 1px solid #02023E;
+}
+
+.task__card .btn-outline-primary {
+    color: #00090a;
+    border: 1px solid #041416;
+}
+
+.btn-outline-danger {
+    color: #ef9343 !important;
+    border: 1px solid #ef9343 !important;
+
+}
+
+.card-body {
+    background-color: #E0EAEF;
+}
+
+.add__new__btn__mobile__only {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 15px 10px;
+    z-index: 3;
+}
